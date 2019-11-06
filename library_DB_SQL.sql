@@ -119,7 +119,7 @@ VALUES
 	(113, 'Stephen King'),
 	(114, 'Stephen King'),
 	(115, 'Haruki Murakami'),
-	(116, 'Jun’ichir? Tanizaki'),
+	(116, 'Junâ€™ichir? Tanizaki'),
 	(117, 'Yasunari Kawabata'),
 	(118, 'Murasaki Shikibu'),
 	(119, 'Fumiko Enchi')
@@ -301,7 +301,7 @@ FROM library_branch
 JOIN book_loans ON book_loans.BranchID = library_branch.BranchID
 JOIN books ON books.BooksID = book_loans.BooksID
 JOIN borrower ON borrower.CardNo = book_loans.CardNo
-WHERE book_loans.DateDue = '2018/11/08'
+WHERE book_loans.DateDue = '2019/12/15'
 AND library_branch.BranchName = 'Sharpstown'
 GO
 
