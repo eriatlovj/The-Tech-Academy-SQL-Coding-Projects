@@ -1,3 +1,5 @@
+CREATE DATABASE db_library
+
 USE db_library
 
 /* LIBRARY CREATED */
